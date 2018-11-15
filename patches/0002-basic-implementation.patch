@@ -1,0 +1,43 @@
+From 997217087b46334ede5f8c965eebfb8a38973f19 Mon Sep 17 00:00:00 2001
+From: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Date: Thu, 15 Nov 2018 15:07:05 +0200
+Subject: [PATCH 2/7] basic implementation
+
+Introduce the `Calculator` class with single member-function which
+performs an addition.
+
+Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Signed-off-by: Maksym Dudka <dudkamv@gmail.com>
+---
+ calculator.cpp | 6 ++++++
+ calculator.h   | 5 +++++
+ 2 files changed, 11 insertions(+)
+ create mode 100644 calculator.cpp
+ create mode 100644 calculator.h
+
+diff --git a/calculator.cpp b/calculator.cpp
+new file mode 100644
+index 0000000..23b2bb3
+--- /dev/null
++++ b/calculator.cpp
+@@ -0,0 +1,6 @@
++#include "calculator.h"
++
++int Calculator::Add (int a, int b)
++{
++    return a + b;
++}
+diff --git a/calculator.h b/calculator.h
+new file mode 100644
+index 0000000..6b87fdc
+--- /dev/null
++++ b/calculator.h
+@@ -0,0 +1,5 @@
++class Calculator
++{
++    public:
++        int Add (int, int);
++};
+-- 
+2.25.1
+

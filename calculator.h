@@ -9,3 +9,25 @@ class Calculator
 };
 
 #endif//CALCULATOR_H
+
+class Calculator
+{
+    public:
+        int Add (int, int);
+};
+
+//Dudka Maksym IO-81
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
